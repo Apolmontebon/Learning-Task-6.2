@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated SVG Icon</title>
+  <style>
+    svg {
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="150" r="30" fill="blue">
+    <animate attributeName="cy" dur="1s" values="150;250;150" keyTimes="0;0.5;1" repeatCount="indefinite" />
+  </circle>
+</svg>
+
+</body>
+</html>
